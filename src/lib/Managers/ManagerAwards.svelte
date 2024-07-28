@@ -46,7 +46,7 @@
   };
 
   const computePodiums = (cRosterID) => {
-    console.log(cRosterID);
+  
 
     formerGlobal = false;
     displayAwards = [];
@@ -110,6 +110,7 @@
       leagueManagerRecords.push(record);
     }
 
+    console.log(records.regularSeasonData)
     const winRecords = [...leagueManagerRecords].sort(
       (a, b) => b.wins - a.wins
     );
@@ -121,7 +122,7 @@
     );
 
     // First loop for the shorter arrays (winRecords, pointsRecords, iqRecords, mostSeasonLongPoints)
-    for (let i = 0; i < winRecords.length; i++) {
+    for (let i = 0; i < records.regularSeasonData.mostSeasonLongPoints.length; i++) {
       const seasonLongRecord =
         records.regularSeasonData.mostSeasonLongPoints[i];
       const winRecord = winRecords[i];
