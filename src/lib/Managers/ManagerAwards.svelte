@@ -43,7 +43,7 @@
                 if(award == 'year') continue;
                 if(award == 'divisions') {
                     for(const division of podium[award]) {
-                        if(checkIfDeserves(division.rosterID, cRosterID, podium.year)) {
+                        if(checkIfDeserves(division.rosterID, rosterID, podium.year)) {
                             const former = tookOver && tookOver > podium.year;
                             if(former) {
                                 formerGlobal = true;
@@ -182,7 +182,7 @@
         }
     }
 
-    $: computePodiums(rosterID);
+    // $: computePodiums(rosterID);
 
     const computeAward = (award) => {
         switch (award) {
