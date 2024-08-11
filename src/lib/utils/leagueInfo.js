@@ -23,7 +23,7 @@ export const managers = [
     {
       "roster": 1,
       // "managerID": "996177809884266496",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Alex Puncochar",
+      "name": "Alex P",
       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Denver, CO", // (optional)
       "bio": "Lorem ipsum...",
@@ -46,7 +46,7 @@ export const managers = [
     {
       "roster": 2,
       // "managerID": "873581177716563968",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Karl Finkel",
+      "name": "Karl F",
       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Denver, CO", // (optional)
       "bio": "Lorem ipsum...",
@@ -69,7 +69,7 @@ export const managers = [
     {
       "roster": 3,
       // "managerID": "863476197265354752",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Evan Hink",
+      "name": "Evan H",
       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Naples, FL", // (optional)
       "bio": "Lorem ipsum...",
@@ -92,7 +92,7 @@ export const managers = [
     {
       "roster": 4,
       // "managerID": "12345678",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Matt Springer",
+      "name": "Matt S",
       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Edina, MN", // (optional)
       "bio": "Lorem ipsum...",
@@ -115,7 +115,7 @@ export const managers = [
     {
       "roster": 5,
       // "managerID": "990409125953622016",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Cole Schmeling",
+      "name": "Cole S",
       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Prior Lake, MN", // (optional)
       "bio": "Lorem ipsum...",
@@ -138,7 +138,7 @@ export const managers = [
     {
       "roster": 6,
       // "managerID": "996205199675052032",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Jack Puncochar",
+      "name": "Jack P",
       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Maple Grove, MN", // (optional)
       "bio": "Lorem ipsum...",
@@ -161,7 +161,7 @@ export const managers = [
     {
       "roster": 7,
       // "managerID": "998078351430660096",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Alex Augedahl",
+      "name": "Alex A",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Rosemount, MN", // (optional)
       "bio": "Lorem ipsum...",
@@ -184,7 +184,7 @@ export const managers = [
     {
       "roster": 8,
       // "managerID": "994684782980169728",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Danny Reardon",
+      "name": "Danny R",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Denver, CO", // (optional)
       "bio": "Lorem ipsum...",
